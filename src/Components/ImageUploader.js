@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import dataURItoBlob from './DataUriToBlob';
 
-function ImageUploader({ setSearchTerm, handleSearch }) {
+function ImageUploader() {
   const apiKey = 'f4612ad12d9c440c855c4fe14c303d58';
   const endpoint =
     'https://testdifferentcars-prediction.cognitiveservices.azure.com/customvision/v3.0/Prediction/6e4eda9b-e9a6-463f-a9b2-0bdedec47e4f/detect/iterations/Iteration4/image';
